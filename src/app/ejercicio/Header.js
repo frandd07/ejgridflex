@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header>
       <div>
-        <img src="https://comprarpegatinas.com/images/stories/virtuemart/product/pegatinas/El_Nino.png" alt="Mi Logo" className="logo" />
+        <img src="https://sevillafc.es/sites/default/files/imageblock/escudo-250x250.png" alt="Mi Logo" className="logo" />
       </div>
       <nav>
         <ul>
