@@ -6,7 +6,6 @@ export default function Main() {
       <main>
         <section className="section1">
           <h2>Bienvenido a nuestra tienda</h2>
-          <p>Encuentra las mejores camisetas y sudaderas con diseños exclusivos.</p>
         </section>
         <section className="section2">
           <h2>Lo más vendido</h2>
@@ -17,8 +16,8 @@ export default function Main() {
           </ul>
         </section>
         <section className="section3">
-          <h2>Contacto</h2>
-          <p>¿Tienes alguna pregunta? ¡Estamos aquí para ayudarte!</p>
+          <h2 className="contacto">Contacto</h2>
+          <p>Dime coza</p>
           <button>Contactar</button>
         </section>
       </main>

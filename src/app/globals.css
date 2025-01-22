@@ -3,8 +3,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #4198ff;
+  background-color: #67697C;
   color: white;
+}
+
+body {
+  background-color: #969696;
 }
 
 header .logo {
@@ -31,16 +35,15 @@ nav ul li {
   }
 }
 
-/* Main Styling */
 main {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   padding: 20px;
 }
 
 section {
-  background-color:#4198ff;
+  background-color: #fcfc6c;
   padding: 20px;
   border-radius: 8px;
   display: flex;
@@ -73,30 +76,43 @@ button:hover {
   background-color: #555;
 }
 
-/* Diseño de Grid con diferentes tamaños */
 .section1 {
-  grid-column: span 2; /* Esta sección ocupa dos columnas */
-  grid-row: span 2; /* Esta sección ocupa dos filas */
+  background-color: #B79D94;
+  grid-column: span 2;
+  grid-row: span 2;
 }
 
 .section2 {
-  grid-column: span 1; /* Ocupa solo una columna */
-  grid-row: span 1; /* Ocupa una fila */
+  background-color: #C6878F;
+  grid-column: span 1;
+  grid-row: span 1;
 }
 
 .section3 {
-  grid-column: span 1; /* Ocupa solo una columna */
-  grid-row: span 1; /* Ocupa una fila */
+  background-color: #67697C;
+  grid-column: span 1;
+  grid-row: span 1;
 }
+
 
 @media (max-width: 768px) {
   main {
-    grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+    grid-template-columns: 1fr;
   }
 
   .section1 {
-    grid-column: span 1; /* Ocupa una columna en pantallas pequeñas */
-    grid-row: span 1; /* Ocupa una fila en pantallas pequeñas */
+    grid-column: span 1;
+    grid-row: span 1;
   }
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #67697C;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
